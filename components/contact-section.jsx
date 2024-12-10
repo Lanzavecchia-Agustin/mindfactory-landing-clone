@@ -151,6 +151,7 @@ export function ContactSection() {
                     </FormLabel>
                     <FormControl>
                       <Textarea
+                        className="text-foreground"
                         placeholder={t("form.descriptionPlaceholder")}
                         rows={4}
                         {...field}
