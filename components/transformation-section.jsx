@@ -26,7 +26,7 @@ export function TransformationSection() {
   return (
     <section className="flex flex-col items-center justify-center max-w-6xl gap-8 px-4 mx-auto xl:px-0 md:px-8 sm:flex-row sm:justify-between sm:px-0 sm:py-16 md:flex-row md:py-12">
       <motion.div
-        className="hidden sm:flex sm:w-2/5 md:w-1/2"
+        className="hidden sm:flex sm:w-2/5 md:w-5/6"
         initial="hidden"
         animate="visible"
         variants={imageVariants}

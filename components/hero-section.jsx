@@ -56,7 +56,7 @@ export function HeroSection() {
         </motion.div>
       </motion.div>
 
-      <div className="relative flex items-center justify-center w-full mt-10 sm:mt-0 sm:w-3/5">
+      <div className="relative flex items-center justify-center w-full mt-10 sm:mt-0 sm:w-2/5">
         <motion.div
           className="relative w-full max-w-[400px] sm:max-w-[428px] aspect-[428/413]"
           initial="hidden"
