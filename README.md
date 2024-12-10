@@ -1,5 +1,5 @@
-Clon de MindFactory landing page
-Este es un proyecto basado en Next.js.
+Clon de MindFactory landing page.
+Un proyecto basado en Next.js.
 
 Introducción
 Este proyecto es un clon de la página web oficial de MindFactory con algunos cambios en el diseño y la incorporación de nuevas funcionalidades.
