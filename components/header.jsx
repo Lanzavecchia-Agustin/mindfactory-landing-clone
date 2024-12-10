@@ -103,6 +103,7 @@ export function Header() {
                 alt="Mindfactory Logo"
                 width={150}
                 height={150}
+                loading="lazy"
               />
             </Link>
 
