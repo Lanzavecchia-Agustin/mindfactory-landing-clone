@@ -1,0 +1,27 @@
+{
+    "title": "HABLEMOS",
+    "description": "Estamos aquí para todo. Escribí tus datos y te contactamos.",
+    "form": {
+      "fullnameLabel": "Nombre completo",
+      "fullnamePlaceholder": "Juan Pérez",
+      "emailLabel": "Email",
+      "emailPlaceholder": "correo@example.com",
+      "descriptionLabel": "¿Cómo podemos ayudarte?",
+      "descriptionPlaceholder": "Escribe tu consulta aquí...",
+      "submitButton": "Enviar"
+    },
+    "sidebar": {
+      "title": "¡Hola! ¿Te apasiona la tecnología y la innovación?",
+      "description": "¡Estamos buscando personas como vos para unirse a nuestro equipo de software!",
+      "button": "Conocer más"
+    },
+    "errors": {
+      "fullnameRequired": "El nombre es obligatorio.",
+      "fullnameMinLength": "El nombre debe tener al menos 2 caracteres.",
+      "emailRequired": "El correo electrónico es obligatorio.",
+      "emailInvalid": "Por favor, ingresa un correo válido.",
+      "descriptionRequired": "La descripción es obligatoria.",
+      "descriptionMinLength": "La descripción debe tener al menos 10 caracteres."
+    }
+  }
+  

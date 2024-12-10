@@ -2,20 +2,81 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Light Theme */
+    --background: #ffffff; /* Light background */
+    --foreground: #020817; /* Dark text for light theme */
+    --header-background: rgba(255, 255, 255, 1); /* Light header background */
+    --card: #f8f9fa; /* Light card background */
+    --card-foreground: #020817; /* Dark card text */
+    --popover: #ffffff; /* Popover background */
+    --popover-foreground: #020817; /* Popover text */
+    --primary: #0d6efd; /* Blue primary color */
+    --primary-foreground: #ffffff; /* White text on primary color */
+    --secondary: #6c757d; /* Secondary gray */
+    --secondary-foreground: #ffffff; /* White text on secondary */
+    --muted: #e9ecef; /* Muted background */
+    --muted-foreground: #495057; /* Muted text */
+    --accent: #ffc107; /* Accent yellow */
+    --accent-foreground: #020817; /* Dark text on accent */
+    --destructive: #dc3545; /* Red for destructive actions */
+    --destructive-foreground: #ffffff; /* White text on destructive */
+    --border: #dee2e6; /* Light border */
+    --input: #f1f3f5; /* Light input background */
+    --ring: #0d6efd; /* Blue ring */
+    --chart-1: #0dcaf0; /* Light cyan for charts */
+    --chart-2: #6610f2; /* Purple for charts */
+    --chart-3: #ffc107; /* Yellow for charts */
+    --chart-4: #28a745; /* Green for charts */
+    --chart-5: #dc3545; /* Red for charts */
+    --radius: 0.5rem; /* Rounded corners */
+  }
+
+  .dark {
+    /* Dark Theme */
+    --background: #020817; /* Dark background */
+    --foreground: #ffffff; /* Light text for dark theme */
+    --header-background: rgba(0, 35, 56, 1); /* Dark header background */
+    --card: #1c1f24; /* Dark card background */
+    --card-foreground: #ffffff; /* Light card text */
+    --popover: #1c1f24; /* Popover background */
+    --popover-foreground: #ffffff; /* Popover text */
+    --primary: #00ffcc; /* Aqua primary color */
+    --primary-foreground: #020817; /* Dark text on primary */
+    --secondary: #008ba3; /* Secondary blue-gray */
+    --secondary-foreground: #ffffff; /* Light text on secondary */
+    --muted: #13161b; /* Muted background */
+    --muted-foreground: #b0b3b8; /* Muted text */
+    --accent: #0d6efd; /* Accent blue */
+    --accent-foreground: #ffffff; /* White text on accent */
+    --destructive: #dc3545; /* Red for destructive actions */
+    --destructive-foreground: #ffffff; /* White text on destructive */
+    --border: #30363d; /* Dark border */
+    --input: #1c1f24; /* Dark input background */
+    --ring: #00ffcc; /* Aqua ring */
+    --chart-1: #00ffcc; /* Aqua for charts */
+    --chart-2: #007bff; /* Blue for charts */
+    --chart-3: #ffc107; /* Yellow for charts */
+    --chart-4: #28a745; /* Green for charts */
+    --chart-5: #dc3545; /* Red for charts */
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }

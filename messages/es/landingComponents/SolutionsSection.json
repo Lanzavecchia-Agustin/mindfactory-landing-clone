@@ -1,0 +1,27 @@
+{
+      "title": "Soluciones",
+      "description": "Conoce nuestras soluciones tecnológicas para potenciar tu negocio y alcanzar tus objetivos.",
+      "solutions": {
+        "solution1": {
+          "icon": "Code2",
+          "title": "SOFTWARE A MEDIDA",
+          "description": "Construimos soluciones únicas y adaptables con nuestros clientes, fusionando conocimiento del negocio y experiencia en ingeniería de software."
+        },
+        "solution2": {
+          "icon": "Settings",
+          "title": "PROCESOS DE INNOVACIÓN",
+          "description": "Empleamos métodos ágiles para una gestión de proyectos eficiente y adaptable."
+        },
+        "solution3": {
+          "icon": "BarChart3",
+          "title": "SERVICIOS DE CALIDAD",
+          "description": "Aportamos y ayudamos a las empresas a implementar frameworks de calidad, acordes al stack tecnológico del cliente."
+        },
+        "solution4": {
+          "icon": "Users",
+          "title": "UX/UI",
+          "description": "Diseñamos interfaces intuitivas para mejorar la experiencia del usuario y la accesibilidad en apps, webs y software."
+        }
+      }
+}
+  

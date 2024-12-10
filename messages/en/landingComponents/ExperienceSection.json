@@ -1,0 +1,26 @@
+{
+    "title": "OUR EXPERIENCE",
+    "experiences": {
+    "experience1": {
+        "icon": "https://mindfactory.ar/_next/static/media/bank.5902026b.svg",
+        "title": "Government"
+    },
+    "experience2": {
+        "icon": "https://mindfactory.ar/_next/static/media/hand-heart.2feb0a0d.svg",
+        "title": "Health"
+    },
+    "experience3": {
+        "icon": "https://mindfactory.ar/_next/static/media/equity.4c6a75ea.svg",
+        "title": "Public Services"
+    },
+    "experience4": {
+        "icon": "https://mindfactory.ar/_next/static/media/plane.3b4064d6.svg",
+        "title": "Tourism"
+    },
+    "experience5": {
+        "icon": "https://mindfactory.ar/_next/static/media/home.d3c00ba4.svg",
+        "title": "Real Estate"
+    }
+    }
+}
+  

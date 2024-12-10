@@ -1,0 +1,26 @@
+{
+    "title": "Solutions",
+    "description": "Discover our technological solutions to enhance your business and achieve your goals.",
+    "solutions": {
+      "solution1": {
+        "icon": "Code2",
+        "title": "CUSTOM SOFTWARE",
+        "description": "We build unique and adaptable solutions with our clients, blending business knowledge and software engineering expertise."
+      },
+      "solution2": {
+        "icon": "Settings",
+        "title": "INNOVATION PROCESSES",
+        "description": "We use agile methods for efficient and adaptable project management."
+      },
+      "solution3": {
+        "icon": "BarChart3",
+        "title": "QUALITY SERVICES",
+        "description": "We assist companies in implementing quality frameworks tailored to the client's technology stack."
+      },
+      "solution4": {
+        "icon": "Users",
+        "title": "UX/UI",
+        "description": "We design intuitive interfaces to improve user experience and accessibility in apps, websites, and software."
+      }
+    }
+  }

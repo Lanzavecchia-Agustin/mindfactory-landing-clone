@@ -1,0 +1,27 @@
+{
+    "title": "LET'S TALK",
+    "description": "We are here for anything. Provide your details and we will contact you.",
+    "form": {
+      "fullnameLabel": "Full Name",
+      "fullnamePlaceholder": "John Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "email@example.com",
+      "descriptionLabel": "How can we help you?",
+      "descriptionPlaceholder": "Write your query here...",
+      "submitButton": "Send"
+    },
+    "sidebar": {
+      "title": "Hello! Are you passionate about technology and innovation?",
+      "description": "We are looking for people like you to join our software team!",
+      "button": "Learn More"
+    },
+    "errors": {
+      "fullnameRequired": "Name is required.",
+      "fullnameMinLength": "The name must have at least 2 characters.",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Please enter a valid email.",
+      "descriptionRequired": "Description is required.",
+      "descriptionMinLength": "The description must have at least 10 characters."
+    }
+  }
+  

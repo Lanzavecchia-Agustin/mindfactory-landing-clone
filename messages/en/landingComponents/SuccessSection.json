@@ -1,0 +1,19 @@
+{
+    "title": "SUCCESS CASES",
+    "description": "We are committed to your needs.",
+    "successCases": [
+    { "name": "Bancor", "logo": "https://mindfactory.ar/_next/static/media/bancor.39ac5323.svg" },
+    { "name": "EPEC", "logo": "https://mindfactory.ar/_next/static/media/epec.cfb498a7.svg" },
+    { "name": "Kolektor", "logo": "https://mindfactory.ar/_next/static/media/kolektor.59031c45.svg" },
+    { "name": "Conectar", "logo": "https://mindfactory.ar/_next/static/media/conectar.7210433c.svg" },
+    { "name": "Climate Trade", "logo": "https://mindfactory.ar/_next/static/media/climate-trade.5400c086.svg" },
+    { "name": "Economía", "logo": "https://mindfactory.ar/_next/static/media/economia.ca58ffc1.svg" },
+    { "name": "Galmes Digital", "logo": "https://mindfactory.ar/_next/static/media/galmes-digital.ffd15dc6.svg" },
+    { "name": "GrowPro", "logo": "https://mindfactory.ar/_next/static/media/growpro.b5bec6f7.svg" },
+    { "name": "Invierte", "logo": "https://mindfactory.ar/_next/static/media/inviertis.aafebec1.svg" },
+    { "name": "Legis Process", "logo": "https://mindfactory.ar/_next/static/media/legisprocess.da3ef4f5.svg" },
+    { "name": "Municipalidad", "logo": "https://mindfactory.ar/_next/static/media/municipalidad.4063b5cb.svg" },
+    { "name": "TÜV", "logo": "https://mindfactory.ar/_next/static/media/tuv.33285e3e.svg" }
+    ]
+}
+  
